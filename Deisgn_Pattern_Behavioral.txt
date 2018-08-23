@@ -1,0 +1,160 @@
+Folder 1: 1_Course Overview
+
+1_Overview
+
+Folder 2: 2_Behavioral Design Patterns Introduction
+1_Introduction
+2_Why Learn Patterns?
+3_Pattern Classifications
+4_Which Patterns?
+5_How Do We Learn Them?
+6_Prerequisites
+7_Next
+
+
+Folder 3: 3_Chain of Responsibility Pattern
+1_Introduction
+2_Concepts
+3_Design Considerations
+4_UML Diagram
+5_Example: Logging
+6_Demo: Logging
+7_Exercise - Chain of Responsibility
+8_Demo: Approver
+9_Pitfalls
+10_Contrast to Other Patterns
+11_Summary
+
+Folder 4: 4_Command Pattern
+1_Introduction
+2_Concepts
+3_Design Considerations
+4_UML Diagram
+5_Example: Runnable
+6_Demo: Runnable
+7_Exercise - Command
+8_Demo: Switch
+9_Demo: State
+10_Demo: Macro
+11_Pitfalls
+12_Contrast to Other Patterns
+13_Summary
+
+Folder 5: 5_Interpreter Pattern
+1_Introduction
+2_Concepts
+3_Design Considerations
+4_UML Diagram
+5_Example: Pattern
+6_Demo: Pattern
+7_Exercise - Interpreter
+8_Demo: Interpreter
+9_Pitfalls
+10_Contrast to Other Patterns
+11_Summary
+
+Folder 6: 6_Iterator Pattern
+1_Introduction
+2_Concepts
+3_Design Considerations
+4_UML Diagram
+5_Example: List
+6_Demo: List
+7_Exercise - Iterator
+8_Demo: Iterator
+9_Pitfalls
+10_Summary
+
+Folder 7: 7_Mediator Pattern
+1_Introduction
+2_Concepts
+3_Design Considerations
+4_UML Diagram
+5_Example: Timer
+6_Demo: Timer
+7_Exercise - Mediator
+8_Demo: Mediator
+9_Pitfalls
+10_Contrast to Other Patterns
+11_Summary
+
+Folder 8: 8_Memento Pattern
+1_Introduction
+2_Concepts
+3_Design Considerations
+4_UML Diagram
+5_Example: Serializable
+6_Demo: Serializable
+7_Exercise - Memento
+8_Demo: Memento
+9_Pitfalls
+10_Contrast to Other Patterns
+11_Summary
+
+Folder 9: 9_Observer Pattern
+1_Introduction
+2_Concepts
+3_Design Considerations
+4_UML Diagram
+5_Example: Util
+6_Demo: Util
+7_Exercise - Observer
+8_Demo: Observer
+9_Pitfalls
+10_Contrast to Other Patterns
+11_Summary
+
+
+Folder 10: 10_State Pattern
+1_Introduction
+2_Concepts
+3_Design Considerations
+4_UML Diagram
+5_Example: if/else
+6_Demo: if/else
+7_Exercise - State
+8_Demo: State
+9_Pitfalls
+10_Contrast to Other Patterns
+11_Summary
+
+Folder 11: 11_Strategy Pattern
+1_Introduction
+2_Concepts
+3_Design Considerations
+4_UML Diagram
+5_Example: Comparator
+6_Demo: Comparator
+7_Exercise - Strategy
+8_Demo: Strategy
+9_Pitfalls
+10_Contrast to Other Patterns
+11_Summary
+
+Folder 12: 12_Template Method Pattern
+1_Introduction
+2_Concepts
+3_Design Considerations
+4_UML Diagram
+5_Example: Collections.sort
+6_Demo: Comparable
+7_Exercise - Template Method
+8_Demo: Template Method
+9_Pitfalls
+10_Contrast to Other Patterns
+11_Summary
+
+Folder 13: 13_Visitor Pattern
+1_Introduction
+2_Concepts
+3_Design Considerations
+4_UML Diagram
+5_Example: API
+6_Demo: Visitor
+7_Demo: Without Visitor
+8_Demo: Shipping Visitor
+9_Demo: Display Visitor
+10_Pitfalls
+11_Contrast to Other Patterns
+12_Summary
+13_What Next?

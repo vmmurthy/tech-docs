@@ -1,0 +1,81 @@
+Course name : Java 8
+
+Folder 1: 1_Introduction to Lambda Expressions in Java 8
+1_Introduction, Targeted Audience
+2_Module Outline
+3_The FileFilter Example
+4_A First Lambda Expression
+5_Live Coding: A First Lambda Expression
+6_Live Coding: Runnable and Comparator Examples
+7_Several Ways of Writing Lambda Expressions
+8_Three Questions About Lambda Expressions
+9_Functional Interfaces
+10_Is a Lambda Expression an Object?
+11_The Functional Interfaces Toolbox
+12_Method References
+13_Processing Collections with Lambdas
+14_Changing the Way Interfaces Work?
+15_Default and Static Methods in Java 8 Interfaces
+16_New Patterns: The Predicate Interface Example
+17_Live Coding: New Patterns Examples
+18_Module Wrap Up
+
+Folder 2: 2_Java 8 Stream API and Collectors
+1_Introduction, Module Outline
+2_The Map / Filter / Reduce Algorithm
+3_What Is a Stream?
+4_Definition of a Stream in Java 8
+5_Building and Consuming a Stream
+6_Filtering a Stream
+7_Live Coding: Consuming and Filtering a Stream
+8_Lazy Operations on a Stream
+9_Lice Coding: Intermediary and Terminal Operations
+10_Wrapping up Intermediary and Terminal Operations
+11_The Map Operation
+12_The Flatmap Operation
+13_Lice Coding: Map and Flatmap Examples
+14_Wrapping up Map and Filter on a Stream
+15_Reduction, Functions, and Bifunctions
+16_Reduction of the Empty Set: Identity Element
+17_Optionals
+18_Pattern for the Optionals
+19_Wrapping up Reduction Operations
+20_Terminal Operations
+21_Live Coding: Reductions, Optionals
+22_Wrapping up Operations and Optionals
+23_Collectors, Collecting in a String, in a List
+24_Collecting in a Map
+25_Live Coding: Processing Streams
+26_Wrapping Module
+
+
+Folder 3: 3_Java 8 Date and Time API
+1_Introduction and Outline
+2_The Old java.util.Date API
+3_Why Does Immutability Matter?
+4_The Instant Class and the Duration Class
+5_The LocalDate Class and the Period Class
+6_Live Coding: Local Dates and Periods Examples and Corner Cases
+7_Computing Dates from Other Dates
+8_The LocalTime Class
+9_Dealing with Time Zones: The ZonedTime Class
+10_Printing Dates and Times: The DateTimeFormatter
+11_From Legacy Code to the New Date and Time API
+12_Conclusion and Wrap Up
+
+Folder 4:Strings, IO, and Other Bits and Pieces
+
+1_Introduction and Outline
+2_Strings and StringJoiner
+3_Java I/O: Reading Text Files
+4_Java I/O: Exploring Directories
+5_New Methods on Iterable, Collection, and List
+6_Comparator: Patterns and Utilities
+7_Numbers, Method References, and Hashcodes
+8_Map: Enhancements of Existing Methods
+9_Map: The Compute and Merge Methods
+10_Live Coding: General Map Enhancements
+11_Live Coding: Map Merging
+12_Live Coding: Building Bimaps
+13_Annotations
+14_Conclusion and Wrap Up
