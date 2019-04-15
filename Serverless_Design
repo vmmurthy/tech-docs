@@ -1,0 +1,64 @@
+File : POM.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.fidelity</groupId>
+	<artifactId>ACPALMD</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>ACPALMD</name>
+	<description>Demo project for Spring Boot</description>
+
+	<properties>
+		<java.version>1.8</java.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+		    <groupId>com.amazonaws</groupId>
+		    <artifactId>aws-lambda-java-core</artifactId>
+		    <version>1.1.0</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+			    <groupId>org.apache.maven.plugins</groupId>
+			    <artifactId>maven-shade-plugin</artifactId>
+			    <version>2.4.3</version>
+			    <configuration>
+			        <createDependencyReducedPom>false</createDependencyReducedPom>
+			    </configuration>
+			    <executions>
+			        <execution>
+			            <phase>package</phase>
+			        	<goals>
+			                <goal>shade</goal>
+			            </goals>
+			        </execution>
+			    </executions>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
+
+File 2: Handler File content 
+package com.fidelity.ACPALMD;
+
+import com.amazonaws.services.lambda.runtime.Context;
+import com.amazonaws.services.lambda.runtime.RequestHandler;
+import com.fidelity.ACPALMD.model.MyAccessRequest;
+
+public class LambdaHandler implements RequestHandler<MyAccessRequest, String> {
+	public String handleRequest(MyAccessRequest req, Context ctxt) {
+		String appName = req.getAppName();
+		return appName;
+	}
+}
+
