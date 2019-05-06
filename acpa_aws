@@ -2,3 +2,37 @@ Lambda using POJO Handler : https://docs.aws.amazon.com/lambda/latest/dg/java-ha
 
 
 Creating Triggers : https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-edge-add-triggers.html
+
+Pom.xml :
+<dependencies>
+		<dependency>
+		    <groupId>com.amazonaws</groupId>
+		    <artifactId>aws-lambda-java-core</artifactId>
+		    <version>1.1.0</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+			    <groupId>org.apache.maven.plugins</groupId>
+			    <artifactId>maven-shade-plugin</artifactId>
+			    <version>2.4.3</version>
+			    <configuration>
+			        <createDependencyReducedPom>false</createDependencyReducedPom>
+			    </configuration>
+			    <executions>
+			        <execution>
+			            <phase>package</phase>
+			        	<goals>
+			                <goal>shade</goal>
+			            </goals>
+			        </execution>
+			    </executions>
+			</plugin>
+		</plugins>
+	</build>
