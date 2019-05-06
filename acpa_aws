@@ -1,1 +1,4 @@
 Lambda using POJO Handler : https://docs.aws.amazon.com/lambda/latest/dg/java-handler-io-type-pojo.html
+
+
+Creating Triggers : https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-edge-add-triggers.html
