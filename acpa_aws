@@ -36,3 +36,11 @@ Pom.xml :
 			</plugin>
 		</plugins>
 	</build>
+	
+	File 1: 
+	public class LambdaHandler implements RequestHandler<MyAccessRequest, String> {
+	public String handleRequest(MyAccessRequest req, Context ctxt) {
+		String appName = req.getAppName();
+		return appName;
+	}
+}
