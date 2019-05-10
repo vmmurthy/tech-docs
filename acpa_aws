@@ -44,3 +44,37 @@ Pom.xml :
 		return appName;
 	}
 }
+
+JSON Format:
+{
+"identifier": " 1163573501 ",
+"requestTypeId": "t9999",
+"target": "Request Name",
+"coreAction": "Add",
+"actionName": "Add Something",
+"principleId": "a999999",
+"submitterId": "a888888",
+"submitterCostCenter": "13072",
+"ownerId": "a777777",
+"ownerCostCenter": "13075",
+"currentPendingGroupName": "g8888",
+"jobRoleName": "Some Job Role",
+"modeName": " New Associate ",
+"nonCorpId": "svrTestAccount",
+"otherInformation": "some info",
+"hasAttachment": true,
+"requestDetail": {
+"RequestDetailValueList": [
+{ "name":"Field1","value":["Value1","value2"]},
+{ "name":"Field2","value":["Value3","value4"]
+]
+},
+"webserviceParameters": {
+"sample string 1": "sample string 2",
+"sample string 3": "sample string 4"
+},
+"additionalInformation": {
+"sample string 1": "sample string 2",
+"sample string 3": "sample string 4"
+}
+} 
