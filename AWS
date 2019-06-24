@@ -1,10 +1,12 @@
-S3 101
-  Installation of any kind of OS or Databas requires block based storage rather than Object based storage.
-  
-11 - S3 Bucket Creation(Practical Pending)
+1. Cloud Front : - Is a content delivery network(CDN)
 
-  Creating Bucket, Making Objects public and accessing the public objects.
-  
-12 - Encryption(Yet to be started)
+The primary entities of CDN include Origin, Edge Location and Distribution (is the name given to the CDN Which is a collection of edge
+locations)
 
-Resume from 93
+There are 2 distributions types in CloudFront.
+
+First one : WEb Distribution : Which is meant for Websites.
+Scond One : RTMP - Media Streaming.
+
+  Edge Locations are not just read only - Users can also write to edge locations.
+  Deletion of objects in the cache can be done but would incur charges.
